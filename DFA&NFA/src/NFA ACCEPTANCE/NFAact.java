@@ -34,7 +34,7 @@ public class NFAact{
         if (currentStates.contains("q2")) {
             System.out.println("Accepted");
         } else {
-            System.out.println("Rejected");
+            System.out.println("Not Accepted");
         }
 
         scanner.close();
